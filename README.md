@@ -1,8 +1,7 @@
-# python
-
+# Python
 Projetos em Python
 
-Habilidades adiquiridas
+Habilidades adquiridas
 
 *Automatização-Sistema-Bancário*
 
