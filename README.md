@@ -37,6 +37,19 @@ Automatização-Sistema-Bancário
 - Estruturação de aplicação Python sem frameworks
 
 
+PyAssist
+
+- Programação em Python
+- Lógica de programação
+- Estruturas condicionais
+- Estruturas de repetição
+- Manipulação de strings
+- Entrada e saída de dados
+- Controle de fluxo
+- Desenvolvimento de aplicação interativa
+- Criação de chatbot
+
+
 Jogo-de-Adivinhação
 
 - Programação em Python
