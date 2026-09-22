@@ -4,7 +4,7 @@ Projetos em Python
 
 Habilidades adiquiridas
 
-Automatização-Sistema-Bancário
+*Automatização-Sistema-Bancário*
 
 - Programação em Python
 - Programação Orientada a Objetos (POO)
@@ -37,7 +37,7 @@ Automatização-Sistema-Bancário
 - Estruturação de aplicação Python sem frameworks
 
 
-PyAssist
+*PyAssist*
 
 - Programação em Python
 - Lógica de programação
@@ -50,7 +50,7 @@ PyAssist
 - Criação de chatbot
 
 
-Jogo-de-Adivinhação
+*Jogo-de-Adivinhação*
 
 - Programação em Python
 - Lógica de programação
