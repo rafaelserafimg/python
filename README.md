@@ -35,3 +35,17 @@ Automatização-Sistema-Bancário
 - Simulação de sistema bancário em ambiente console
 - Boas práticas de organização e legibilidade de código
 - Estruturação de aplicação Python sem frameworks
+
+
+Jogo-de-Adivinhação
+
+- Programação em Python
+- Lógica de programação
+- Estruturas condicionais
+- Estruturas de repetição
+- Validação de dados
+- Controle de fluxo
+- Geração de números aleatórios
+- Entrada e saída de dados
+- Controle de tentativas
+- Desenvolvimento de aplicação interativa
