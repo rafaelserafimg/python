@@ -62,3 +62,16 @@ Habilidades adquiridas
 - Entrada e saída de dados
 - Controle de tentativas
 - Desenvolvimento de aplicação interativa
+
+*Jokenpô*
+
+- Programação em Python
+- Lógica de programação
+- Estruturas condicionais
+- Estruturas de repetição
+- Funções
+- Validação de dados
+- Controle de fluxo
+- Números aleatórios
+- Entrada e saída de dados
+- Desenvolvimento de aplicação interativa
