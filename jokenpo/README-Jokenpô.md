@@ -1,4 +1,4 @@
-Jokenpô
+Jogo Jokenpô
 
 *jokenpo-v1.py*
 - primeira versão funcional
