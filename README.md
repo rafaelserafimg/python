@@ -70,8 +70,10 @@ Habilidades adquiridas
 - Estruturas condicionais
 - Estruturas de repetição
 - Funções
+- Listas
 - Validação de dados
 - Controle de fluxo
 - Números aleatórios
 - Entrada e saída de dados
+- Gerenciamento de estado
 - Desenvolvimento de aplicação interativa
