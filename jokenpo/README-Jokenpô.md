@@ -23,3 +23,16 @@ Projeto de Pedra, Papel e Tesoura desenvolvido em Python, criado em duas versõe
 - Validação de dados
 - Opção de reiniciar o jogo
 - Uso de while, break e continue
+
+🧠 Jokenpô V3
+
+Versão mais completa do projeto, com novas opções de interação e controle das partidas.
+
+- Menu principal
+- Sistema de histórico
+- Controle de partidas
+- Placar acumulado
+- Resultado por sequência
+- Opção de continuar, reiniciar ou sair
+- Gerenciamento de estado
+- Uso de listas e contadores
