@@ -45,6 +45,7 @@ while jogar:
         continue
 
     if escolha_menu == 1:
+        partidas_jogadas = 0
 
         escolha_numero_partidas = int(
             input("Quantas partidas queres jogar? ")
@@ -95,7 +96,7 @@ while jogar:
             placar()
 
         print("-" * 30)
-        print("FIM DE JOGO")
+        print("\nFIM DE JOGO\n")
 
         if player_placar > computador_placar:
             print("🎉 Você venceu, parabéns! 🎉")
@@ -108,9 +109,9 @@ while jogar:
             print("🤝 Vocês empataram!")
             historico.append("EMPATE")
 
-        escolha_final= int(input("Oque deseja fazer. [1]Continuar [2]Reiniciar [3]Sair"))
+        escolha_final= int(input("\nOque deseja fazer. [1]Continuar [2]Reiniciar [3]Sair: "))
         if escolha_final not in opcoes_finais:
-                print(f"Escolha inválida! Escolha uma das opções: [1]Continuar [2]Reiniciar [3]Sair")
+                print(f"\nEscolha inválida! Escolha uma das opções: [1]Continuar [2]Reiniciar [3]Sair")
                 continue
         elif escolha_final == 3:
             break
@@ -119,24 +120,24 @@ while jogar:
             computador_placar = 0
             partidas_jogadas = 0
         else:
+            partidas_jogadas = 0
             continue
-
-            
+         
 
     elif escolha_menu == 2:
-        print("📜 Histórico...\n")
+        print("\n📜 Histórico...\n")
         if historico == []:
-            print("Nenhuma partida jogada ainda.")
+            print("Nenhuma partida jogada ainda.\n")
         else:
             print(historico)
 
     elif escolha_menu == 3:
-        print("\n❓ COMO JOGAR")
-        print("Escolha pedra, papel ou tesoura.")
+        print("\n❓ COMO JOGAR\n")
+        print("Escolha pedra, papel ou tesoura.\n")
         print("Pedra vence tesoura.")
         print("Tesoura vence papel.")
-        print("Papel vence pedra.")
+        print("Papel vence pedra.\n")
 
     elif escolha_menu == 4:
-        print("👋 Até a próxima!")
+        print("\n👋 Até a próxima!\n")
         jogar = False
