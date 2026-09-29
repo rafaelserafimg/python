@@ -32,6 +32,9 @@ player_placar = 0
 computador_placar = 0
 partidas_jogadas = 0
 
+player_vitoria = 0
+cpu_vitoria = 0
+
 jogar = True
 
 while jogar:
@@ -46,10 +49,10 @@ while jogar:
 
     if escolha_menu == 1:
         partidas_jogadas = 0
+        player_vitoria = 0
+        cpu_vitoria = 0
 
-        escolha_numero_partidas = int(
-            input("Quantas partidas queres jogar? ")
-        )
+        escolha_numero_partidas = int(input("Quantas partidas queres jogar? "))
 
         while partidas_jogadas < escolha_numero_partidas:
 
@@ -86,10 +89,12 @@ while jogar:
             ):
                 print("VITÓRIA! 🏆")
                 player_placar += 1
+                player_vitoria += 1
 
             else:
                 print("PERDEU! 💔")
                 computador_placar += 1
+                cpu_vitoria += 1
 
             partidas_jogadas += 1
 
@@ -98,30 +103,33 @@ while jogar:
         print("-" * 30)
         print("\nFIM DE JOGO\n")
 
-        if player_placar > computador_placar:
+        if player_vitoria > cpu_vitoria:
             print("🎉 Você venceu, parabéns! 🎉")
             historico.append("VITÓRIA")
 
-        elif computador_placar > player_placar:
+        elif cpu_vitoria > player_vitoria:
             print("❌ O computador venceu! ❌")
             historico.append("DERROTA")
         else:
             print("🤝 Vocês empataram!")
             historico.append("EMPATE")
 
-        escolha_final= int(input("\nOque deseja fazer. [1]Continuar [2]Reiniciar [3]Sair: "))
-        if escolha_final not in opcoes_finais:
-                print(f"\nEscolha inválida! Escolha uma das opções: [1]Continuar [2]Reiniciar [3]Sair")
-                continue
-        elif escolha_final == 3:
-            break
-        elif escolha_final == 2:
-            player_placar = 0
-            computador_placar = 0
-            partidas_jogadas = 0
-        else:
-            partidas_jogadas = 0
-            continue
+        while True:
+            escolha_final= int(input("\nOque deseja fazer. [1]Continuar [2]Reiniciar [3]Sair: "))
+            if escolha_final not in opcoes_finais:
+                    print(f"\nEscolha inválida! Escolha uma das opções: [1]Continuar [2]Reiniciar [3]Sair: ")
+                    continue
+            elif escolha_final == 3:
+                jogar = False
+                break
+            elif escolha_final == 2:
+                player_placar = 0
+                computador_placar = 0
+                partidas_jogadas = 0
+                break
+            else:
+                partidas_jogadas = 0
+                break
          
 
     elif escolha_menu == 2:
