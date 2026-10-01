@@ -67,13 +67,15 @@ Habilidades adquiridas
 
 - Programação em Python
 - Lógica de programação
+- Funções
 - Estruturas condicionais
 - Estruturas de repetição
-- Funções
-- Listas
+- Listas e contadores
 - Validação de dados
 - Controle de fluxo
 - Números aleatórios
 - Entrada e saída de dados
 - Gerenciamento de estado
+- Sistema de placar
+- Histórico de partidas
 - Desenvolvimento de aplicação interativa
