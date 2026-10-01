@@ -56,14 +56,10 @@ while jogar:
 
         while partidas_jogadas < escolha_numero_partidas:
 
-            escolha_jogador = input(
-                "\nEscolha uma opção (pedra, papel ou tesoura): "
-            ).lower()
+            escolha_jogador = input("\nEscolha uma opção (pedra, papel ou tesoura): ").lower()
 
             if escolha_jogador not in opcoes:
-                print(
-                    f"Escolha inválida! Escolha uma das opções: {opcoes}"
-                )
+                print(f"Escolha inválida! Escolha uma das opções: {opcoes}")
                 continue
 
             escolha_computador = random.choice(opcoes)
@@ -77,16 +73,9 @@ while jogar:
             if escolha_jogador == escolha_computador:
                 print("EMPATE! 🤝")
 
-            elif (
-                escolha_jogador == "pedra"
-                and escolha_computador == "tesoura"
-            ) or (
-                escolha_jogador == "papel"
-                and escolha_computador == "pedra"
-            ) or (
-                escolha_jogador == "tesoura"
-                and escolha_computador == "papel"
-            ):
+            elif (escolha_jogador == "pedra"and escolha_computador == "tesoura") or\
+                (escolha_jogador == "papel" and escolha_computador == "pedra") or\
+                (escolha_jogador == "tesoura" and escolha_computador == "papel"):
                 print("VITÓRIA! 🏆")
                 player_placar += 1
                 player_vitoria += 1
