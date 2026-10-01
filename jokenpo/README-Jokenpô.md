@@ -36,3 +36,17 @@ Versão mais completa do projeto, com novas opções de interação e controle d
 - Opção de continuar, reiniciar ou sair
 - Gerenciamento de estado
 - Uso de listas e contadores
+
+⚡ Jokenpô V4
+
+Evolução do projeto com diferentes modos de jogo e novas possibilidades de controle das partidas.
+
+- Criação de modos de jogo
+- Modo de partidas definidas
+- Modo primeiro a X pontos
+- Controle de partidas
+- Sistema de placar
+- Sistema de histórico
+- Opção de continuar, reiniciar ou voltar
+- Uso de loops aninhados
+- Controle de fluxo
