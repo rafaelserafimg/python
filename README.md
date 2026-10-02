@@ -43,11 +43,16 @@ Habilidades adquiridas
 - Lógica de programação
 - Estruturas condicionais
 - Estruturas de repetição
+- Funções
+- Listas
 - Manipulação de strings
-- Entrada e saída de dados
+- Validação de dados
 - Controle de fluxo
-- Desenvolvimento de aplicação interativa
+- Entrada e saída de dados
+- Manipulação de data e hora
 - Criação de chatbot
+- Organização e modularização do código
+- Desenvolvimento de aplicação interativa
 
 
 *Jogo-de-Adivinhação*
