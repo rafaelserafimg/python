@@ -1,6 +1,7 @@
 🎮 Jokenpô
 
-Projeto de Pedra, Papel e Tesoura desenvolvido em Python, criado em duas versões para acompanhar a evolução da aplicação e dos conhecimentos adquiridos durante o desenvolvimento.
+Projeto de Pedra, Papel e Tesoura desenvolvido em Python, estruturado em quatro versões que representam a evolução gradual da aplicação, desde a implementação da lógica básica até a utilização de diferentes modos de jogo, sistema de pontuação, histórico de partidas e gerenciamento de estado.
+
 
 🕹️ Jokenpô V1
 
