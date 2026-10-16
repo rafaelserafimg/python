@@ -6,7 +6,6 @@ Habilidades adquiridas
 
 *Automatização-Sistema-Bancário*
 
-- Programação em Python
 - Programação Orientada a Objetos (POO)
 - Criação e uso de classes e objetos
 - Uso de herança e especialização de classes
@@ -39,25 +38,27 @@ Habilidades adquiridas
 
 *PyAssist*
 
-- Programação em Python
 - Lógica de programação
 - Estruturas condicionais
-- Estruturas de repetição
+- Estruturas de repetição (for e while)
 - Funções
-- Listas
+- Listas e manipulação de dados
 - Manipulação de strings
-- Validação de dados
+- Validação de entradas do usuário
 - Controle de fluxo
 - Entrada e saída de dados
-- Manipulação de data e hora
+- Manipulação de data e hora com datetime
 - Criação de chatbot
+- Processamento e validação de comandos
 - Organização e modularização do código
-- Desenvolvimento de aplicação interativa
+- Desenvolvimento de aplicações interativas
+- Adição, listagem e remoção de tarefas
+- Numeração automática de itens com enumerate()
+- Validação de índices e tratamento de listas vazias
 
 
 *Jogo-de-Adivinhação*
 
-- Programação em Python
 - Lógica de programação
 - Estruturas condicionais
 - Estruturas de repetição
@@ -70,7 +71,6 @@ Habilidades adquiridas
 
 *Jokenpô*
 
-- Programação em Python
 - Lógica de programação
 - Funções
 - Estruturas condicionais
