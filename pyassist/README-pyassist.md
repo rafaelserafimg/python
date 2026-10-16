@@ -29,3 +29,15 @@ Versão aprimorada com novas funcionalidades e uma estrutura de código mais org
 - Manipulação de data e hora
 - Validação de comandos
 - Desenvolvimento de funcionalidades interativas
+
+🛠️ PyAssist V3
+
+Terceira versão do projeto, com a implementação de um sistema de gerenciamento de tarefas integrado ao chatbot.
+
+- Listagem de tarefas com numeração automática usando enumerate()
+- Remoção de tarefas pelo número escolhido
+- Validação dos números informados
+- Verificação de lista vazia
+- Tratamento de números de tarefas inexistentes
+- Integração das funcionalidades ao sistema de comandos
+- Aplicação de estruturas condicionais e de repetição
